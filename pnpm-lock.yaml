@@ -15,9 +15,9 @@ importers:
       '@types/node':
         specifier: 22.13.9
         version: 22.13.9
-      '@unicode/unicode-16.0.0':
-        specifier: 1.6.5
-        version: 1.6.5
+      '@unicode/unicode-17.0.0':
+        specifier: 1.6.10
+        version: 1.6.10
       '@vitest/coverage-v8':
         specifier: 3.0.8
         version: 3.0.8(vitest@3.0.8(@types/node@22.13.9))
@@ -381,8 +381,8 @@ packages:
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
 
-  '@unicode/unicode-16.0.0@1.6.5':
-    resolution: {integrity: sha512-r+ONMCgl+K2UWPmEbjN+aqjiLkjh1Zattq8OKYCbFoslwWFc+ysAGQR4h3YOtNvVtuiZSd4O1brRE7cp0wn6Aw==}
+  '@unicode/unicode-17.0.0@1.6.10':
+    resolution: {integrity: sha512-S7PiUZrddefRHhdlnsKXCsh/JiNqIW2/1do+8YKRoopYoVEX5eoRhQ86YDg+ik6yfi591NjYX7OanhkcxcaaZg==}
 
   '@vitest/coverage-v8@3.0.8':
     resolution: {integrity: sha512-y7SAKsQirsEJ2F8bulBck4DoluhI2EEgTimHd6EEUgJBGKy9tC25cpywh1MH4FvDGoG2Unt7+asVd1kj4qOSAw==}
@@ -1636,7 +1636,7 @@ snapshots:
 
   '@types/normalize-package-data@2.4.1': {}
 
-  '@unicode/unicode-16.0.0@1.6.5': {}
+  '@unicode/unicode-17.0.0@1.6.10': {}
 
   '@vitest/coverage-v8@3.0.8(vitest@3.0.8(@types/node@22.13.9))':
     dependencies:

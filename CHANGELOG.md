@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [4.2.0](https://github.com/ikatyang-collab/unicode-regex/compare/v4.1.2...v4.2.0) (2025-08-30)
+
+### Features
+
+- support Unicode 17 ([#310](https://github.com/ikatyang-collab/unicode-regex/issues/310)) ([5e7366f](https://github.com/ikatyang-collab/unicode-regex/commit/5e7366f958bfe7e2dff5640b891eeb3f52a8d794))
+
 ## [4.1.2](https://github.com/ikatyang-collab/unicode-regex/compare/v4.1.1...v4.1.2) (2025-03-08)
 
 ## [4.1.1](https://github.com/ikatyang/unicode-regex/compare/v4.1.0...v4.1.1) (2025-03-08)

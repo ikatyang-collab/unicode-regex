@@ -47,5 +47,5 @@
     "/CHANGELOG.md",
     "/ThirdPartyNoticeText.txt"
   ],
-  "packageManager": "pnpm@9.3.0"
+  "packageManager": "pnpm@9.15.9"
 }

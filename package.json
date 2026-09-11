@@ -30,14 +30,14 @@
   "devDependencies": {
     "@types/node": "25.9.3",
     "@unicode/unicode-17.0.0": "1.6.17",
-    "@vitest/coverage-v8": "4.1.11",
+    "@vitest/coverage-v8": "5.0.0",
     "outdent": "^0.8.0",
     "prettier": "3.8.4",
     "standard-version": "9.5.0",
     "typescript": "6.0.3",
     "vite": "8.3.0",
     "vite-node": "6.0.0",
-    "vitest": "4.1.11"
+    "vitest": "5.0.0"
   },
   "engines": {
     "node": ">=16"

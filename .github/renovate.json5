@@ -4,8 +4,9 @@
   rangeStrategy: 'bump',
   packageRules: [
     {
-      groupName: 'devDependencies',
+      groupName: 'non-major dev-dependencies',
       matchDepTypes: ['devDependencies'],
+      matchUpdateTypes: ['minor', 'patch'],
     },
     {
       groupName: 'GitHub Actions',

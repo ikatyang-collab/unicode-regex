@@ -17,7 +17,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepack": "yarn build",
     "lint": "prettier . --check",
     "fix": "prettier . --write",
     "check": "tsc --noEmit",

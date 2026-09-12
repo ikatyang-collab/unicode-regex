@@ -18,7 +18,8 @@
   "license": "MIT",
   "scripts": {
     "prepack": "yarn build",
-    "lint": "prettier --check .",
+    "lint": "prettier . --check",
+    "fix": "prettier . --write",
     "check": "tsc --noEmit",
     "test": "vitest",
     "build": "node ./scripts/generate.mjs && tsc -p ./tsconfig.build.json",

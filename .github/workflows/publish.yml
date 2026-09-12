@@ -11,4 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: yarn publish --no-git-checks --provenance
+      - run: npm install -g npm@latest
+      - run: npm pkg delete scripts devDependencies packageManager
+      - run: |
+          node --version
+          npm --version
+      - run: npm publish

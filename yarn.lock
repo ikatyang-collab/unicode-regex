@@ -264,10 +264,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unicode/unicode-17.0.0@npm:1.6.17":
-  version: 1.6.17
-  resolution: "@unicode/unicode-17.0.0@npm:1.6.17"
-  checksum: 10/ca7817c57fdc3f3f791f65c7abd2dfa3105e50e2d8018e0afe20185597abb3e1a96147ea9518c49ecb49482776c16babe81667d2ecac54a4122225cb66aad060
+"@unicode/unicode-17.0.0@npm:2.0.7":
+  version: 2.0.7
+  resolution: "@unicode/unicode-17.0.0@npm:2.0.7"
+  checksum: 10/f9743a32f4a6e1bc10bf4414864994fc92152e55bfdee4c54b274165272a894cebd00d3eb5da83d90fcdb59f2a86ca25aa361e93409b7cbc263fbbd607cb17a5
   languageName: node
   linkType: hard
 
@@ -2428,7 +2428,7 @@ __metadata:
   resolution: "unicode-regex@workspace:."
   dependencies:
     "@types/node": "npm:25.9.3"
-    "@unicode/unicode-17.0.0": "npm:1.6.17"
+    "@unicode/unicode-17.0.0": "npm:2.0.7"
     "@vitest/coverage-v8": "npm:5.0.0"
     outdent: "npm:^0.8.0"
     prettier: "npm:3.8.4"

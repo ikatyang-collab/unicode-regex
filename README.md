@@ -40,13 +40,13 @@ Returns a [Charset](https://github.com/ikatyang/regexp-util#charset) for further
 
 ```sh
 # lint
-pnpm run lint
+yarn lint
 
 # build
-pnpm run build
+yarn build
 
 # test
-pnpm run test
+yarn test
 ```
 
 ## License

@@ -17,11 +17,11 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepack": "pnpm run build",
+    "prepack": "yarn build",
     "lint": "prettier --check .",
     "check": "tsc --noEmit",
     "test": "vitest",
-    "build": "vite-node ./scripts/generate.mjs && tsc -p ./tsconfig.build.json",
+    "build": "node ./scripts/generate.mjs && tsc -p ./tsconfig.build.json",
     "release": "standard-version"
   },
   "dependencies": {
@@ -47,5 +47,5 @@
     "/CHANGELOG.md",
     "/ThirdPartyNoticeText.txt"
   ],
-  "packageManager": "pnpm@11.7.0"
+  "packageManager": "yarn@4.18.0"
 }

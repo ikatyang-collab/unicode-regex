@@ -14,12 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run lint
+      - run: yarn lint
+
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run build
-      - run: pnpm run test
-      - run: pnpm run check
+      - run: yarn build
+      - run: yarn test
+      - run: yarn check

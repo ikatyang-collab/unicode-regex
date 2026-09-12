@@ -23,7 +23,7 @@
     "check": "tsc --noEmit",
     "test": "vitest",
     "build": "node ./scripts/generate.mjs && tsc -p ./tsconfig.build.json",
-    "release": "standard-version"
+    "release": "release-it"
   },
   "dependencies": {
     "regexp-util": "^2.0.3"
@@ -34,7 +34,7 @@
     "@vitest/coverage-v8": "5.0.0",
     "outdent": "^0.8.0",
     "prettier": "3.8.4",
-    "standard-version": "9.5.0",
+    "release-it": "21.0.2",
     "typescript": "6.0.3",
     "vite": "8.3.0",
     "vitest": "5.0.0"

@@ -85,7 +85,7 @@ for (const [category, subCategories] of categories) {
     let content = new Charset()
 
     const { default: data } = await import(
-      `${unicodeDataPackageName}/${category}/${subCategory}/code-points.js`
+      `${unicodeDataPackageName}/${category}/${subCategory}/code-points.mjs`
     )
     const batch = 1000
     for (let i = 0; i < data.length; i += batch) {
